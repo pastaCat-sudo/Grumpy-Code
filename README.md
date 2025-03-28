@@ -3,4 +3,4 @@ Ones and zeros suck. Yet, we craft them in elaborate ways.
 
 I'm focusing on what's important.
 
-And for the record... If you're not grumpy, then why code?
+And for the record... If you're not grumpy, then why bother writing code?
