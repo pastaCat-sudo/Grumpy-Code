@@ -23,6 +23,12 @@ What you need to know:
                                           and are usually made up of primitive types in some way. Still, reference types are not fancy! String is a reference type (notice the capital letter), but it's used
                                           just as frequently as primitives, and is often confused with them!
       CODE VISUAL LINK
+
+3) Key terminology (operators, conditionals, etc) and Recursion --> I think most people who have tried coding (well, you obviously know about GitHub XD) have an idea of what conditional statments are (if, else) 
+                                                                    and what loops (while, for) are all about. But, why use "recursion" over "loops", or vice versa? What exactly is recursion? There are unknowns here right.
+                                                                    Also, there may be misconceptions to dispel around terminology. 
+      CODE VISUAL LINK
+
 3) JCF (Java Collections Framework) --> JCF is a package in Java's Standard Library. Remember that JDK lib folder. It's used all the time. You see everything we used from the JCF is actually a type of "Data Structure" 
                                         and each one has it's own "Algorithms" you can call. YOU SEE, these DSAs are already built into programming libraries. 
                                         - what we need to do is understand how they work, so we can pick the one that's best for a certain task!
