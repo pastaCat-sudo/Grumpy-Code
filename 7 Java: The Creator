@@ -13,8 +13,6 @@ If you can finish this all at once, you'll walk away as a master:
           - And the concepts you have seen will only repeat themselves in different ways for different languages.
 
 
-
-
 More typical libraries, miscellaneous concepts, and techniques:
 Library Structure, IDEs and best library tools, Streams, I/O techniques, OOP Java Quirks, Powerful loops/ways of doing stuff, How to set it up for regression (make this practical and chronological for how someone might try them)
 The things I'm missing (networking + more) -> can check out these resources... javadocs for 23 and oracles user guides. LINKS
@@ -27,3 +25,21 @@ Simulations (types), Games (brief intro to Kotlin, java upsides and downsides he
 
 
       CODE VISUAL LINK
+
+
+
+
+
+Of course. The things I've shown you are not exhaustive. But again, they do more than get you started! YOU ARE A MASTER. And masters know what they don't know, and importantly,
+where to look to then and find answers!
+
+*** My message, write programs for learning AND make great/big programs that have true societal purpose! ***
+
+
+I've kept all this learning away from stuff like Assembly language, Processors and Digital Logic. Such things appear "under-the-hood" from a programming perspective, yet these
+areas teach you why things like "loops" look the way they do, why we assign variables, and why programming languages like C, C++, and Java must do a tonne of heavy lifting
+behind the sceen. Low-level is a gateway to efficiency! Through Java, the closest you get to all this magic are via "bitwise" operations (e.g. logical && vs & are very different!).
+
+I also encourage you to appreciate programming from very high levels. Scripting languages and web descriptive languages (HTML,CSS) appear simpler, but in my opinion get closer
+to the human psyche (messy but brilliant)! How can you program anything useful if you don't understand people, or how non-experts interact with technology? Why is cybersecurity a 
+thing? And how does the internet play into all this? You see, there are things around economics, networking, and policy that often get missed when you're head is down in code.
