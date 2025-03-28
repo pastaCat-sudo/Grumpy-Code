@@ -1,34 +1,36 @@
 Java Style
 
-
 Style? Well, whatever.
-Just be efficient with whatever you do.
+It's more about being efficient with whatever you do.
+
 
 
 MODERN:
 There is a style to Java that is considered more modern. Use "records" and "streams" and "method bodies that only have a few lines".
-This sort of thing is good because it makes coding faster and more readable for large teams (apparently).
+This sort of thing is good because it makes coding faster and more readable for large teams.
 
 OLD:
-Old Java uses more "classes" and "longer method bodies". Ultimatly, old Java is just a different convention.
+Old Java uses more "classes" and "longer method bodies". Ultimately, old Java is just a different convention. In some ways it's actually more 
+intuitive, which is why we can lazily revert to this style for small projects, for teaching concepts, for maybe because we have a die-hard spirit (idk).
 
 UPSHOT:
 If modern Java's style can save us time when writing code, potentially making teamwork easier too, then let's roll with it!
 
 
 Modern OOP Buzz terms:
-- Dynamic dispatch --> to do with hierarchies in your code. If you override methods in child records/classes/interfaces then you are allowing the runtime environment to infer which override version to run. 
+- Dynamic dispatch --> to do with hierarchies in your code. If you override methods in child records/classes/interfaces then you are allowing the runtime environment to infer which overrided version to use. 
 - Active documentation --> about coding-in error messages cleverly, for identifying the cause of failure, and possibly to point a programmer in the direction of updated documentation)
 - Self-documenting code --> when you choose variable names that help explain what your code is doing. Instead of writing long comments (that's messy).
 - Corner cases --> like the bounds of method that you write. What are the unusual cases that may break the methods intended function? Code so that you catch them and handle them.
 - Unit testing --> related to corner cases. Units are short, easy to write, tests that you should write for each method to test functionality and the corner cases! You can run these over and over whenever you make a change.
   -- Manual and Automated testing --> manual testing is a programmer looking over the code. Automated testing (to me) is a more holistic version of unit tests, it may run a sub-section of the program to evaluate function.
   -- All these tests get employed together, and form a greater concept called "REGRESSION TESTING". 
-- 1:1:1 --> this ratio informs style. The following should be equivalent, "lines of logical code" : "assert or exception handling code" : "code for unit testing".
-- Transitivity of subtyping OR Liskov Substitution Principle --> effectively, child records/classes/interfaces cannot loose the characteristics of their parents.
-- Defensive copies --> well, not strictly new (C/C++ programmers know about this). The concept is to not alter the actual input you pass to a method, for this you need to make a copy of it, to defend corruption. 
-                       It actually has performance benefits to alter the input directly sometimes, so there isn't a mandatory requirement for defensive copies. But in OOP (Java's paradigm) it's common practise.
+- 1:1:1 --> this ratio informs style. The following contents should be equivalent, "lines of logical code" : "assert or exception handling code" : "code for unit testing".
+- Transitivity of subtyping OR Liskov Substitution Principle --> effectively, child records/classes/interfaces cannot lose the characteristics of their parents.
+- Defensive copies --> well, not strictly a modern concept (C/C++ programmers know about this). The idea is to not alter the actual input you pass to a method: therefore you must make an internal copy of your input 
+                       to defend the original value from corruption. In constrast, there are low-level performance benefits when doing the opposite, i.e altering the input directly. Still, in OOP (Java's paradigm) creating
+                       these copies is very sensible practise.
 
 
 
-Final comment... Java gets ripped on for its emphasis on testing. As mentioned in "1 Java Context" this thoroughness is double-edged in industry.
+Final comment... Java gets ripped on for its emphasis on testing. As mentioned in the file "1 Java Context" this thoroughness is quite double-edged.
