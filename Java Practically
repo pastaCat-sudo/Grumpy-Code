@@ -1,0 +1,44 @@
+Java Practically
+
+There is a hierarchy when downloading the "Java stuff" you need. 
+
+
+SIMPLY GET THE JDK. DONE.
+
+My outlook:
+
+JDK (Java Development Kit): 
+Effectively all you need to get started. It's like the root file of everything Java - everything's inside.
+Useful tools I'll mention at this level of the file system are: 
+1) Java Compiler (javac), -----------------------------
+2) Java Archive Tool (jar), and also the jlink tool (version 9+)
+3) Document Generator Tool (javadoc)
+4) Java Debugger (jdb)
+5) Java Class Dissembler (javap) ----------------------
+*) Then there's also "Runtime" stuff - like the fact that common .java files concern the Application Launcher.
+*) Finally the familiar "Java Standard Library" (technically an API) is stored here too, in the lib folder.
+
+      JRE (Java Runtime Environment):
+      A folder within the JDK. It's important because it holds the JVM (Java Virtual Machine) seen below.
+      Also, it holds whatever "libaries are needed for runtime". Apparently before Java 9 these runtime libraries were literal
+      duplicates of files from inside the JDK's lib folder (a level up from here), but then, from version 9 onward this stopped,
+      and now the "library stuff" needed at runtime is sourced directly from that lib folder (in sophisticated ways). There is no
+      the need for duplicates.
+
+            JVM (Java Virtual Machine):
+            A buzz term... The idea is the JVM lets Java code run on any hardware! Yay. It executes the Java bytecode directly. In a 
+            sense your computer doesn't touch the code. In my experience, good features to understand about the JVM are 
+            1) It uses a Just-In-Time (JIT) complier
+            2) It performs garbage collection (part of memory management)
+            (Again, all it's roles make it sophisticated. You don't (I don't) need to know much more - if stuff breaks, then we learn and fix it!)
+
+
+
+_____Stupid stuff:_____
+
+"Java Standard Edition" - pointless term. 
+
+This is how the Java community thinks it works... Java Standard Edition -> includes the JDK and JRE, with its JVM... Like what?
+
+AND SO, I WILL FINISH THE WAY I STARTED - GET THE JDK, IT'S THAT SIMPLE.
+
