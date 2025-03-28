@@ -1,0 +1,29 @@
+Java The Creator
+
+
+You have had the crash course thus far.
+
+Agenda:
+- More typical libraries, miscellaneous concepts, and techniques
+- Laying out a Java Program for different Applications
+
+I'm going to give you a chuncky end to this course!
+If you can finish this all at once, you'll walk away as a master: 
+          - The tools for creation (from idea to specific code) will be at your fingertips. 
+          - And the concepts you have seen will only repeat themselves in different ways for different languages.
+
+
+
+
+More typical libraries, miscellaneous concepts, and techniques:
+Library Structure, IDEs and best library tools, Streams, I/O techniques, OOP Java Quirks, Powerful loops/ways of doing stuff, How to set it up for regression (make this practical and chronological for how someone might try them)
+The things I'm missing (networking + more) -> can check out these resources... javadocs for 23 and oracles user guides. LINKS
+
+      CODE VISUAL LINK
+
+
+Laying out a Java Program for different Applications:
+Simulations (types), Games (brief intro to Kotlin, java upsides and downsides here), Planners and connections (transport networks, social connections) and Widget-tools (drawing & undo, organisation hierarchies)
+
+
+      CODE VISUAL LINK
