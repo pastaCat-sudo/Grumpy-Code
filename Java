@@ -1,0 +1,20 @@
+#Java
+
+It's old but not obsolete. 
+
+Recently I heard Java was about the only language you can learn fully. This is true.
+Sure lower-level C++ and C can also be learnt fully - but doing so takes longer and won't deliver the same bredth of understanding.
+
+Java somehow scratches into fast moving industries (like web and mobile app development), offerring robustness to large enterprises.
+Java is robust because it is "statically typed". In other words, while coding you must specify a variable's "type" as you create it (e.g. an integer or a char variable).
+Static languages are compiled by a "compiler" before being run. Together these factors make Java programming complicated and slow.
+
+"Dynamically typed" languages (also known as scripting or interpreted languages) don't force coders to specify a variable's type. There is no compiler step either. Thus, development 
+becomes simpler and code is ready to run as you type it. The catch is that such programs are prone to bugs; in good conscience dynamic languages shouldn't be used in safety-critical contexts.
+
+Anyhow, comparisons aside... The great thing about learning Java is you also learn everything that surrounds it!
+
+That is, you appreciate the low-level grit of C/C++, and also the high-level fury of scripting (JavaScript, Python, Ruby, PHP, etc). 
+Some experts may disagree with my conclusion. Ironic. If you don't have the resolve to tackle Java, you're probably not a computer sciencist, or an embedded / software engineer.
+
+There are no shortcuts.
