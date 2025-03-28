@@ -1,0 +1,43 @@
+Java DSA
+
+That's "Data Structures and Algorithms" 
+
+
+DSAs are absolutely massive in programming, and computing in general. DSAs sound ambiguous though, right? Like, what's a data structure anyway? 
+And what actually constitutes an algorithm?
+
+Yeah, it's something you need to be in "the-know" about because there are some extremely well-defined algorithms already out there.
+
+DSAs are often poorly taught, because they're hard to make practical!! That is, things are often missed when teachers try to show how concepts translate to code.
+
+
+
+Luckily you have me, Grumpy... I'm grumpy about this!
+
+So, screw the coding tutorials for a second.
+What you need to know:
+
+1) Java is an OOP (Object Oriented Programming) language --> It's just how the code is separated. We "modularise/encapsulate" code into "Objects" which have properties (like 'colour') and behaviours (like 'can jump').
+      CODE VISUAL LINK
+2) Primitive types vs Reference types --> To do with how computer hardware handles data. Primitive types (int, char, boolean - notice they're lowercase) can be processed by the hardware directly. Reference types cannot
+                                          and are usually made up of primitive types in some way. Still, reference types are not fancy! String is a reference type (notice the capital letter), but it's used
+                                          just as frequently as primitives, and is often confused with them!
+      CODE VISUAL LINK
+3) JCF (Java Collections Framework) --> JCF is a package in Java's Standard Library. Remember that JDK lib folder. It's used all the time. You see everything we used from the JCF is actually a type of "Data Structure" 
+                                        and each one has it's own "Algorithms" you can call. YOU SEE, these DSAs are already built into programming libraries. 
+                                        - what we need to do is understand how they work, so we can pick the one that's best for a certain task!
+      CODE VISUAL LINK
+4) Trees and Graphs --> So, Java, and any language really, won't have all the well-defined structures and algorithms that people know about already built in! So we also need to make them on the fly!
+                        Computer science is really just about "Trees and Graphs" which are very old-school concepts in Math. There are "Binary Trees" and "General Trees". Graphs visually look like network diagrams
+                        with "nodes and edges" connecting things together.
+      CODE VISUAL LINK
+
+
+
+___ Remember to add code here ___ --> Making DSAs from the JCF. --> what trees and graphs look like in code.
+
+
+That's it for now... 
+I've dodged some miscellaneous information above, because working towards a practical goal from first principles is better.
+Most of what I've missed are details about OOP - but this is just the convention for organising code rather than how we'll apply the code. You'll pick up OOP as we go (note: OOP can get messy, it's the main debugging culprit).
+Next, we'll look directly at use-cases for our DSAs.
