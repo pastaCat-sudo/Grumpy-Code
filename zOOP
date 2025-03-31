@@ -49,7 +49,7 @@ Parsing -> checks that token sequence respects the grammar
 ...
 
 
-MORE SEMANTICS AFFECTING PROGRAM DESIGN: (drafting/incomplete)
+MORE SEMANTICS AFFECTING PROGRAM DESIGN: (in drafting / incomplete)
 
 Conditions - are about branching based on external state (the condition alone doesn't allow you to go back). Conditions are a form of prediction (pre-emption, foresight, etc)
   because to even write a condition means the programmer has predicted a probable occurrence and has developed contingencies in response. Also, a condition is somewhat a 
@@ -59,14 +59,18 @@ Conditions - are about branching based on external state (the condition alone do
 Loops - allow you to go back, oblivious to external state.
 
 In terms of the object in question, over time its external state / environment will change: 
-Thus, combining conditions and loops together allows branching to reoccur informed by a new external state.
+Thus, combining conditions and loops together allows branching to reoccur informed by a new external state...
 
 We can never completely control an external state (though we may inform it - chaotic systems).
-Irrespective of the condition placed 
+Irrespective of the condition placed...
+
+...
+
+The following prioritisation will help to design efficient grammar.
+1) Decide on your verbs.
+2) Use terse delimiters to inform verb sequence.
+3) Use recursive "non-terminals" when possible.
+   - You will still need to check the grammar for LL (left-to-left) and other ambiguities.
+4) Apply techniques to improve human readability judiciously, if at all (e.g whitespaces, chars, words, etc).
 
 
-
-
-
-The following prioritisation will help design efficient grammar.
-1) 
