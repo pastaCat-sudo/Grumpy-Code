@@ -1,0 +1,72 @@
+OOP:
+This is a working file. It's informal and changes frequently...
+
+
+PARSING - DEEP COMPREHENSION:
+Parsing is translating grammar to action
+(Less Movement to more Movement)     
+It's about "Verbs" and the "Sequences" in which they occur.  --> Philosophical discussion: what of nouns? We might say they're an output of sensory parsing (which is an action/verb)?
+                                                                 (I.e. I see a chair, my brain processes it, I can then conclude it's a chair - perhaps even say, "chair". You see, sensing
+                                                                 is continuous, continuous is a state of always "doing", and to do something suggests a "verb". Therefore, like life, the 
+                                                                 instructions hidden in our grammar are best reduced to individual motions).
+
+Verbs -- are commands/words which will correspond to a direct execution.
+Sequences -- are the result of the grammar's structure itself, and may also be imposed by delimiters/words (both affect verb chronology).
+
+Sequence Notes:
+* The AST (Abstract Syntax Tree) derived from a grammar is implemented by the parser; finding the intermediary CPT (Concrete Parse Tree) is a useful initial step.
+* If sequence delimiters happen to be words, then sometimes it's easy to mistake them for verbs! 
+(E.g. "loop" or "for" don't directly correspond to an execution, but they will tell us how to repeat verbs (which do have direct executions)).
+
+Still, we ultimately parse an input grammar to perform a series of executions. These executions are observed as an output. And ideally, this output will be both valid and meaningful.
+By virtue of computation alone our program will be deterministic. However, there are always exceptions. Programmers are human, and nature will always remain slightly unpredictable.
+
+
+PARSING IN PRACTISE:
+The gross process of parsing is typically broken down into tokenization and then the parsing stage itself:
+In my experience studying smaller programs (that use tokenizers) the bare minimum a tokenizer must achieve is
+to provide a set of tools to "identify" each relevant token (in the input). Larger programs (with tokenizers) will 
+use these tools to manipulate input further (e.g. remove whitespace) in order to reduce the burden placed on parsing.
+Following, the parser has two core roles. 1) It checks that the token sequence respects the structure of its grammar. 
+2) It strips away delimiters/words from the CPT to form the AST, in conguence with this it may call execution methods
+immediatly, or approve the way in which AST instructions are passed on to undergo execution... 
+
+Again, in smaller programs, parsing roles (one and two) may be intertwined, instead of occurring in series.
+In fact, some trival cases may not desire the second role at all - an output verifying that grammar-structure was respected after the check may be enough.
+What's more, tiny programs may even bundle the whole tokenizer and parser stages into a holistic "parser" (it really just depends).
+Details are non-exhuastive.
+
+
+IN SHORT:
+
+Tokenizer -> holds tools for identifying tokens   --> (special encoding-related preprocessing is possible beforehand)
+             performs token identification and inupt cleaning for larger programs
+
+Parsing -> checks that token sequence respects the grammar
+           forms AST from CPT
+           immediatly calls exectution functions, or passes on the format for execution.
+
+...
+
+
+MORE SEMANTICS AFFECTING PROGRAM DESIGN: (drafting/incomplete)
+
+Conditions - are about branching based on external state (the condition alone doesn't allow you to go back). Conditions are a form of prediction (pre-emption, foresight, etc)
+  because to even write a condition means the programmer has predicted a probable occurrence and has developed contingencies in response. Also, a condition is somewhat a 
+  sensor in itself! It allow an external input to be evaluated and with this feedback can alter a response. When conditions are based on statistics rather than simple logic 
+  they become more powerful. (Conditions are really interesting because they imply a lot more, even the concept of choice).
+
+Loops - allow you to go back, oblivious to external state.
+
+In terms of the object in question, over time its external state / environment will change: 
+Thus, combining conditions and loops together allows branching to reoccur informed by a new external state.
+
+We can never completely control an external state (though we may inform it - chaotic systems).
+Irrespective of the condition placed 
+
+
+
+
+
+The following prioritisation will help design efficient grammar.
+1) 
