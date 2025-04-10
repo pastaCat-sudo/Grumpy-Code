@@ -1,6 +1,6 @@
 # Grumpy-Code
 
-Ones and zeros suck. Yet, we craft them in elaborate ways to do the "stuff" we want. 
+Ones and zeros suck. Still, we craft them to do the "stuff" we want. 
 
 I'm focusing on what's important. 
 
